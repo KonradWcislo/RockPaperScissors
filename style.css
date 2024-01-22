@@ -1,0 +1,40 @@
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+h1 {
+	font-size: 3.5rem;
+}
+.choices button {
+	font-size: 7.5rem;
+	border-radius: 100px;
+	background-color: rgb(33, 114, 255, 100%);
+	cursor: pointer;
+	transition: background-color 0.5s easy;
+}
+.choices button:hover {
+	background-color: rgb(33, 114, 255, 60%);
+}
+
+.commands {
+	font-size: 3rem;
+    font-weight: 600;
+ 
+}
+.result {
+	font-size: 5rem;
+    font-weight: 600;
+}
+
+.text_green, #playerScoreDisplay{
+    color: green
+}
+
+.text_red, #computerScoreDisplay {
+    color: red;
+}
+
+.scoreDisplay {
+    font-size: 2rem;
+}
